@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="css/pocitaniEmilka.css" type="text/css" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+<?php
+requer_one(require_once ('pocitaniEmilkaSQL.php');
+?>
+<div class="container-md my-3 container-lx  py-1s">
+    <div class="d-flex justify-content-evenly d-flex flex-wrap">
+
+
+<h1>What number do you see?</h1>
+
+</div>
+    <div class="container-md container-lx">
+<div class= "d-flex justify-content-center"id="NahodneCislo">
+</div>
+</div>
+
+    <div class="container-md container-lx py-2 my-3">
+<div  class=" rybnik rounded mx-auto d-flex align-items-start d-flex justify-content-start d-flex flex-wrap"   ></div>
+
+</div>
+
+    <div class="container-md container-lx">
+
+        <div class="d-flex justify-content-evenly">
+    <img class="ryba" src="ryba.png" alt="ryba">
+    <button id="odesli" class="btn btn-primary btn-lg align-self-center">Sent</button>
+
+    </div>
+    </div>
+        <div>
+    <p>Correct answers: 0 </p>
+</div>
+    <div class="d-flex justify-content-start">
+        <button id="Databaze" class="btn btn-secondary btn-lg align-self-center">Close</button>
+    </div>
+</div>
+</div>
+
+
+<script src="js/pocitaniEmilka.js"></script>
+
+</body>
+</html>
